@@ -1,82 +1,59 @@
-
-body {
-	margin:0px;
+css:
+.container-fluid {
+  background-color:yellow;
+  padding: 20px;
 }
-
-h1 {color:purple;}
-p {color:pink;
-	padding:10px;
-
+.header {
+  background-color: blue;
+  padding: 20px;
+  height:200px;
+  border: 2px solid black;
 }
-header {background-color:skyblue;
-	height:130px;
+.nav {
+  background-color: green;
+  padding:20px;
+  height:100px;
+  border: 2px solid black;
 }
-li{
-  display: block;
+.content {
   background-color: red;
+  padding:20px;
+  height:200px;
+  border: 2px solid black;
 }
-main {
-	/* background-color:salmon; */
-	padding:20px;
+.aside {
+  background-color: aqua;
+  padding:20px;
+  height:200px;
+  border: 2px solid black;
 }
-footer {
-	background-color:gray;
-	height:120px;
-	text-align:center;
+.promo {
+  background-color: orange;
+  padding:20px;
+  height:250px;
+  border: 2px solid black;
 }
-footer p {
-	font-size:.002em;
+.footer {
+  background-color: black;
+  padding: 20px;
+  height:200px;
+  border: 2px solid black;
+  color:white;
 }
-#copyRight {
-	position:relative;
-	padding:108px 0px 0px 108px;
-	back-ground color:gray;
+/*MEDIA QUERIES*/
+
+@media screen and (min-width:833px){
+.footer{
+	background-color:orange;
+}
+@media screen and (min-width:460px){
+	.footer{
+		background-color:purple;
+	}
 }
 
-a.button {
-	background-color:#FF00FF;
-	padding:16px;
-	color:#FFFFFF;
-	text-decoration:none;
-	border-radius:6px;
-
-}
-a.button:hover {
-	background-color:#FF0000;
-}
-
-.galaxy{
-	width:350px;
-
-}
-
-nav{
-	width:450px;
-	float:right;
-	position:relative;
-	top:-31px;
-	right:0px;
-}
-li{
-	background-color:#FF7900;
-	padding:10px 15px;
-	margin:0px 3px;
-	display:inline;
-	border-radius:4px 4px 0px 0px;
-
-}
-li:hover {
-	background-color:#0000FF;
-}
-
-li a {
-	color:#FFFFFF;
-	text-decoration:none;
-	font-weight:700;
-	font-size:1em;
-	text-transform:uppercase;
-}
-#logo {
-	padding:20px 0px 0px 20px;
-	width:325px;
+@media screen and (min-width:375px){
+  .footer{
+    background-color:white;
+  }
 }
