@@ -46,6 +46,11 @@ css:
 .footer{
 	background-color:orange;
 }
+    @media screen and (min-width:768px){
+        .footer{
+            background-color:coral;
+        }
+    }
 @media screen and (min-width:460px){
 	.footer{
 		background-color:purple;
