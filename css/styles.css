@@ -1,40 +1,40 @@
 css:
 .container-fluid {
-  background-color:yellow;
+  background-color:skyblue;
   padding: 20px;
 }
 .header {
   background-color: blue;
   padding: 20px;
   height:200px;
-  border: 2px solid black;
+  border: 2px solid gray;
 }
 
 .nav {
-  background-color: green;
+  background-color:cadetblue;
   padding:20px;
   height:100px;
-  border: 2px solid black;
+  border: 2px solid yellow;
 }
 .content {
-  background-color: red;
+  background-color:gainsboro;
   padding:20px;
   height:200px;
   border: 2px solid black;
 }
 
 .aside {
-  background-color: aqua;
+  background-color:gray;
   padding:20px;
   height:200px;
-  border: 2px solid black;
+  border: 2px solid red;
 }
 
-.promo {
-  background-color: orange;
-  padding:20px;
+.total {
+  background-color:dimgrey;
+  padding:10px;
   height:250px;
-  border: 2px solid black;
+  border: 2px solid aqua;
 }
 
 .row3{
@@ -47,16 +47,22 @@ css:
 }
 
 .footer {
-  background-color: black;
+  background-color:gold;
   padding: 20px;
   height:200px;
-  border: 2px solid black;
-  color:white;
+  border: 2px solid blue;
+/*  color:white;*/
 }
 
 
 
 /*MEDIA QUERIES*/
+
+@media screen and (min-width:1033px) (max-width:921px){
+    .footer{
+        background-color:gold;
+    }
+}
 
 @media screen and (min-width:833px){
 .footer{
