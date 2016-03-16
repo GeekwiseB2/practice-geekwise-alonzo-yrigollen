@@ -1,3 +1,4 @@
+/*
 css:
 .container-fluid {
   background-color:yellow;
@@ -9,6 +10,7 @@ css:
   height:200px;
   border: 2px solid black;
 }
+
 .nav {
   background-color: green;
   padding:20px;
@@ -21,18 +23,32 @@ css:
   height:200px;
   border: 2px solid black;
 }
+*/
+/*
 .aside {
   background-color: aqua;
   padding:20px;
   height:200px;
   border: 2px solid black;
 }
+*/
 .promo {
   background-color: orange;
   padding:20px;
   height:250px;
   border: 2px solid black;
 }
+
+.row3{
+    display:flex;
+    justify-content:flex-start;
+}
+.one{
+    height: 40px;
+    width:50px;
+}
+
+/*
 .footer {
   background-color: black;
   padding: 20px;
@@ -40,6 +56,9 @@ css:
   border: 2px solid black;
   color:white;
 }
+*/
+
+
 /*MEDIA QUERIES*/
 
 @media screen and (min-width:833px){
